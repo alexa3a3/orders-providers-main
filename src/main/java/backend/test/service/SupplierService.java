@@ -1,6 +1,6 @@
 package backend.test.service;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import backend.test.dto.ProductSupplierDto;
 import backend.test.dto.SupplierDto;
@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository
+@Service
 public class SupplierService {
 
 	private final SupplierRepository supplierRepository;

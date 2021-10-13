@@ -1,13 +1,13 @@
 package backend.test.service;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import backend.test.dto.ProductDto;
 import backend.test.repository.ProductRepository;
 
 import java.time.LocalDateTime;
 
-@Repository
+@Service
 public class ProductService {
 
 	private final ProductRepository productRepository;

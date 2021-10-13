@@ -1,6 +1,6 @@
 package backend.test.service;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import backend.test.dto.OrderDetailDto;
 import backend.test.dto.OrderDto;
@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository
+@Service
 public class OrderService {
 
 	private final OrderRepository orderRepository;
